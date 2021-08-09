@@ -1,0 +1,16 @@
+.skillbar {
+    width: 100%;
+    background-color: rgb(165, 165, 165);
+  }
+  
+  .skill {
+    color: white;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .skillbar .percent90 {
+    width: 90%;
+    background-color: red
+  }
