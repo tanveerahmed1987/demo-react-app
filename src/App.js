@@ -1,22 +1,21 @@
 import "./App.css";
 
 function App() {
-  const bikes = [
-    "Hero Splendar",
-    "Bajaj Avenger",
-    "Kwasaki Ninja",
-    "Ducati Monster",
-    "Honda Activa 6G",
-  ];
-
   return (
-    <div className="container">
-      <ul>
-        {bikes.map((bike) => {
-          return <li>{bike}</li>;
-        })}
-      </ul>
-    </div>
+    <>
+      <button className="btn primary">Success</button>
+      <button className="btn danger">Failure</button>
+
+      <p>HTML</p>
+      <div className="skillbar">
+        <div className="skill percent90">90%</div>
+      </div>
+
+      <p>CSS</p>
+      <div className="skillbar">
+        <div className="skill percent60">60%</div>
+      </div>
+    </>
   );
 }
 
