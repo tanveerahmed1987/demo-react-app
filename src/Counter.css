@@ -1,0 +1,36 @@
+
+
+.container {
+    width: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(149, 149, 81);
+    border: 3px solid rgb(108, 116, 6);
+    margin: 10px;
+}
+
+.container button {
+    width: 140px;
+    padding: 20px;
+    border: 0;
+    border-radius: 50px;
+    background-color: rgb(108, 116, 6);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container button:hover {
+    background-color: white;
+    color: rgb(108, 116, 6);
+    border: 1px solid rgb(108, 116, 6);
+}
+
+.container div {
+    padding: 20px;
+    font-size: 20px;
+}
