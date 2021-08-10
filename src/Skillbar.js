@@ -1,11 +1,15 @@
 import "./Skillbar.css";
 
-function Skillbar() {
+// Object destructuring
+
+function Skillbar({ text = "Unknown", percentage = "50", color = "yellow" }) {
   return (
     <>
-      <p>HTML</p>
+      <p>{text}</p>
       <div className="skillbar">
-        <div className="skill percent90">90%</div>
+        <div className={`skill percent${percentage} ${color}`}>
+          {percentage}%
+        </div>
       </div>
     </>
   );

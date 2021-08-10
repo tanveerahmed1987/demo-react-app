@@ -1,16 +1,52 @@
 .skillbar {
-    width: 100%;
-    background-color: rgb(165, 165, 165);
-  }
-  
-  .skill {
-    color: white;
-    text-align: right;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
-  
-  .skillbar .percent90 {
-    width: 90%;
-    background-color: red
-  }
+  width: 100%;
+  background-color: rgb(165, 165, 165);
+}
+
+.skill {
+  color: white;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.skillbar .percent90 {
+  width: 90%;
+}
+
+.skillbar .percent80 {
+  width: 80%;
+}
+
+.skillbar .percent70 {
+  width: 70%;
+}
+
+.skillbar .percent60 {
+  width: 60%;
+}
+
+.skillbar .percent50 {
+  width: 50%;
+}
+
+
+.skillbar .red {
+  background-color: red
+}
+
+.skillbar .green {
+  background-color: green;
+}
+
+.skillbar .blue {
+  background-color: blue
+}
+
+.skillbar .yellow {
+  background-color: rgb(170, 170, 65)
+}
+
+.skillbar .orange {
+  background-color: orange
+}
