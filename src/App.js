@@ -3,6 +3,14 @@ import Button from "./Button";
 import Skillbar from "./Skillbar";
 
 function App() {
+  const onSkillbarTouch1 = (clickedText) => {
+    alert(clickedText);
+  };
+
+  const handler = (clickedText) => {
+    console.log(clickedText);
+  };
+
   return (
     <>
       <Button varient="primary" text="Button 1" />
@@ -12,9 +20,14 @@ function App() {
       <Button varient="secondary" text="Failure" />
 
       <Skillbar percentage="60" color="blue" text="HTML" />
-      <Skillbar percentage="70" color="green" text="Javascript" />
+      <Skillbar
+        percentage="70"
+        color="green"
+        text="Javascript"
+        onTouch={onSkillbarTouch1}
+      />
       <Skillbar />
-      <Skillbar percentage="80" text="Reat JS" />
+      <Skillbar percentage="80" text="Reat JS" onTouch={handler} />
     </>
   );
 }
